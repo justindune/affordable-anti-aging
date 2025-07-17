@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/affordable-anti-aging/',
   server: {
     host: "::",
     port: 8080,
@@ -13,7 +14,6 @@ export default defineConfig(({ mode }) => ({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
-    base: '/affordable-anti-aging/',
   },
   plugins: [
     react(),
