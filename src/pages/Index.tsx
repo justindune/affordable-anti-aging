@@ -9,8 +9,7 @@ import { cn } from '@/lib/utils';
 export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white flex flex-col gap-0">
-      <h1 style={{color: 'red', fontSize: '2rem', textAlign: 'center', margin: '2rem 0'}}>TEST: THIS SHOULD APPEAR</h1>
-      <h1 style={{color: 'red', fontSize: '2rem', textAlign: 'center', margin: '2rem 0'}}>IF YOU SEE THIS, THE FILE IS WORKING</h1>
+      <h1 style={{color: 'white', background: 'linear-gradient(90deg, #ff0055, #ffcc00)', fontSize: '3rem', textAlign: 'center', margin: '2rem 0', padding: '2rem', borderRadius: '1rem', boxShadow: '0 0 16px #ff0055'}}>HOMEPAGE LIVE TEST: YOU ARE SEEING THE UPDATED INDEX.TSX 🎉</h1>
       {/* Hero Section - Humanistic, Welcoming */}
       <div className="relative h-[550px] bg-gradient-to-br from-emerald-400 to-indigo-700 flex items-center justify-center text-center">
         <div className="z-10 max-w-3xl mx-auto px-4">
