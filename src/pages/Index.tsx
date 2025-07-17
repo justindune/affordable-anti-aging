@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white flex flex-col gap-0">
+      <h1 style={{color: 'red', fontSize: '2rem', textAlign: 'center', margin: '2rem 0'}}>TEST: THIS SHOULD APPEAR</h1>
       <h1 style={{color: 'red', fontSize: '2rem', textAlign: 'center', margin: '2rem 0'}}>IF YOU SEE THIS, THE FILE IS WORKING</h1>
       {/* Hero Section - Humanistic, Welcoming */}
       <div className="relative h-[550px] bg-gradient-to-br from-emerald-400 to-indigo-700 flex items-center justify-center text-center">
